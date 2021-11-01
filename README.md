@@ -27,6 +27,6 @@
 ```
 ReversePolishNotation rpn = new ReversePolishNotation(equation);
 rpn.Transform();      			//解析算式构造逆波兰表达式
-var res = rpn.Calc(GetValue);   //计算并返回结果object类型
+var res = rpn.Calc(GetValue);           //计算并返回结果object类型
 ```
 函数Calc的参数GetValue是个委托,传入字符串Key返回对应的值，用于自定义值的变量
